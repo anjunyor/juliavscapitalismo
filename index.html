@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlia vs Obstáculos do Captalismo</title>
+    <link rel="shortcut icon" href="assets/imgs/Mario-ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="start-screen">
+        <h1>Júlia vs <span>Obstáculos do Captalismo</span></h1>
+        <p>Corra e desvie das tentações do shopping!</p>
+        <button class="start-button">COMEÇAR CORRIDA</button>
+        <div class="obstacles-examples">
+            <img src="assets/imgs/bag.png" alt="Sacola de compras">
+            <img src="assets/imgs/sapato.png" alt="Cartão de crédito">
+            <img src="assets/imgs/sale-tag.png" alt="Promoção">
+        </div>
+    </div>
+
+    <div class="score-display">
+        <div class="score">Pontuação: 0</div>
+        <div class="high-score">Recorde: 0</div>
+    </div>
+
+    <div class="game-board">
+        <img src="assets/imgs/clouds.png" class="background">
+        <img src="assets/imgs/mario.gif" class="julia">
+        <!-- Obstáculos (serão mostrados um de cada vez) -->
+        <img src="assets/imgs/sapato.png" class="obstacle shoe" style="display:none;">
+        <img src="assets/imgs/bag.png" class="obstacle bag" style="display:none;">
+        <img src="assets/imgs/jewelry.png" class="obstacle jewelry" style="display:none;">
+    </div>
+
+    <div class="game-over">
+        <h1>Falência Emocional!</h1>
+        <p class="final-score">Pontuação: 0</p>
+        <p class="final-high-score">Recorde: 0</p>
+        <button class="restart">TENTAR NOVAMENTE</button>
+    </div>
+
+
+</body>
+</html>
